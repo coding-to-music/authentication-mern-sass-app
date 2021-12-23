@@ -1,0 +1,197 @@
+
+.navbar__container{
+    height: 60px;
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 60px;
+}
+
+.text__container{
+    height: 70px;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.text__container h3{
+    font-size: 2.25rem;
+    line-height: 3rem;
+    font-family: sans-serif,'Noto Sans';
+    text-align:center;
+    color: #282051;
+}
+
+.text__container p{
+    font-family: sans-serif, 'Noto Sans';
+    font-style: normal;
+    text-align:center;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.035em;
+}
+
+.profile__card__container{
+    width: 855px;
+    height: 580px;
+    text-align: center;
+    border-radius:12px;
+    border: 1px solid #E0E0E0;
+    margin: 20px auto;
+    box-shadow: 3px -1px 14px -2px rgba(206,242,219,0.75);
+    -webkit-box-shadow: 3px -1px 14px -2px rgba(206,242,219,0.75);
+    -moz-box-shadow: 3px -1px 14px -2px rgba(206,242,219,0.75);
+}
+
+.profile__container__header ,.profile__info__container{
+    display:flex;
+    padding: 1rem 3rem;
+    justify-content:space-between;
+    align-items:center;
+    width: 100%;
+    height: 5rem;
+    border-bottom:1px solid #D3D3D3;
+}
+
+.profile__header-text{
+    width: 300px;
+    height: 100%;
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+}
+.profile__header-text h4{
+    font-family: 'Noto Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px; 
+    letter-spacing: -0.035em;
+}
+
+.profile__header-text p{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    margin-top: 2px ;
+    color: #828282;
+}
+
+.profile__container__header button{
+    width: 96px;
+    height: 38px;
+    border: 1px solid #828282;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.035em;
+    color: #828282;
+    
+}
+.user__info__name{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #BDBDBD;
+    text-transform: uppercase;
+}
+.user__info__content{
+    max-height: 60px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.035em;
+}
+
+
+.form__update__container{
+    width: 60%;
+    height: 36em;
+    margin: 20px auto;
+    border-radius:12px;
+    border: 1px solid #E0E0E0;
+    margin: 20px auto;
+    box-shadow: 3px -1px 14px -2px rgba(206,242,219,0.75);
+    -webkit-box-shadow: 3px -1px 14px -2px rgba(206,242,219,0.75);
+    -moz-box-shadow: 3px -1px 14px -2px rgba(206,242,219,0.75);
+}
+
+.card__header__text{
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.card__header__text h4{
+    font-family: Noto Sans,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.035em;
+}
+
+.card__header__text p,.photo__continer p{
+    font-family: Noto Sans,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.035em;
+    color: #828282;
+}
+.photo__continer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 30px 40px;
+}
+.input__container{
+    padding: 4px 40px;
+}
+.inputStyle{
+    width: 20em;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.input__container .btn{
+    width: 23em;
+    height: 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#2F80ED;
+    color: white;
+}
+
+.input__container .btn:hover{
+    background-color:#0157c7;
+    color: white;
+}
+@media screen and (max-width:560px){
+    .form__update__container{
+        width: 95%
+    }
+}

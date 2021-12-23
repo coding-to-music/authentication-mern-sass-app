@@ -95,11 +95,12 @@ $ npm start
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 - [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [Multer](https://www.npmjs.com/package/multer)
-- [react-dropzone](https://react-dropzone.js.org)
-- [react-copy-to-clipboard](https://www.npmjs.com/package/react-copy-to-clipboard)
-- [Axios](https://axios-http.com/)
+- [Facebook Developer](https://developers.facebook.com/)
+- [Formidable](https://www.npmjs.com/package/formidable)
+- [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [react-toastify](https://www.npmjs.com/package/react-toastify)
+- [Material UI](https://mui.com/)
+- [Passport](https://www.npmjs.com/package/passport)
 
 ## Contact
 - [Linkedin](https://www.linkedin.com/in/thomas-sentre-20035b1b7)

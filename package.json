@@ -1,11 +1,19 @@
 {
-  "name": "server",
+  "name": "authentication-mern-sass-app",
   "version": "1.0.0",
   "description": "Full authentication boilerplate using Node.js Express MongoDB React",
   "main": "server.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env DEBUG=server:* node ./server.js"
+    "start": "cross-env DEBUG=server:* node ./server.js",
+    "deploy": "git add . && git commit -m Heroku && git push && git push heroku && heroku logs --tail --remote heroku"
   },
   "keywords": [
     "Node",
